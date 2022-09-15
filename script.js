@@ -8,9 +8,11 @@ window.addEventListener('load',()=>{
 
 */
 
-/*Effet de souris JavaScript ! (2019)*/
+/*Effet de souris JavaScript ! (2019)
 
 //Effet de souris JavaScript ! (2019)
+
+
 
 const balls = document.getElementsByClassName('ball')
 
@@ -47,4 +49,15 @@ document.addEventListener('touchmove', (e)=>{
 
 
 
+})
+*/
+
+const hamburgerIcon = document.querySelector(".nav-toggler")
+
+const navigation = document.querySelector("nav")
+
+hamburgerIcon.addEventListener("click",()=>{
+
+    hamburgerIcon.classList.toggle("active")
+    navigation.classList.toggle("active")
 })
